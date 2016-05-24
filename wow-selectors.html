@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+  <div class="animals">
+    <div class="cat">Cat</div>
+    <div class="dog">Dog</div>
+    <div class="dog">Dog</div>
+    <img src="http://nicenicejpg.com/200/200">
+    <div class="elephant">Elephant</div>
+    <div class="cat">Cat</div>
+    <div class="elephant">Elephant</div>
+  </div>
+
+
+
+  <style>
+    .cat + .dog {
+      background:red;
+    }
+
+    .cat ~ .elephant {
+      background:grey;
+    }
+
+
+
+    .wrapper p {
+
+    }
+
+    ul.nav > li {
+      border:4px solid red;
+    }
+  </style>
+
+  <ul class="nav">
+    <li>Item 01</li>
+    <li>Item 02
+      <ul>
+        <li>Sub Item 01</li>
+        <li>Sub Item 02</li>
+        <li>Sub Item 03</li>
+      </ul>
+    </li>
+    <li>Item 03</li>
+  </ul>
+
+
+
+
+
+</body>
+</html>
